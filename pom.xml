@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.perfulandia</groupId>
-	<artifactId>productos</artifactId>
+	<artifactId>inventario</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>productos</name>
-	<description>productos</description>
+	<name>inventario</name>
+	<description>inventario</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -62,7 +62,7 @@
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
-            <version>3.3.1</version>
+            <version>3.3.3</version>
         </dependency>
 
         <!-- Springdoc OpenAPI con Swagger UI -->
@@ -82,7 +82,8 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-		<!-- Hateoas -->
+
+		 <!-- Hateoas-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
@@ -119,4 +120,4 @@
 		</plugins>
 	</build>
 
-</project>
+</project> 
